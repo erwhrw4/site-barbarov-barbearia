@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Von Barbarov — Barbearov Insights</title>
+  <meta name="description" content="Conteúdo sobre barba, cabelo, estilo, cuidados, barbearia e carreira. Barbearov Insights — o blog da Von Barbarov.">
+  <meta property="og:title" content="Blog | Von Barbarov">
+  <meta property="og:description" content="Barbearov Insights. Conteúdo sobre barba, cabelo, estilo e carreira.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-blog.jpg">
+  <link rel="canonical" href="https://vonbarbarov.com.br/blog">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Pular para o conteúdo</a>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo" aria-label="Von Barbarov — Página inicial">
+        <span class="logo-mark">VB</span><span class="logo-text">VON BARBAROV</span>
+      </a>
+      <nav class="header__nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">INÍCIO</a></li><li><a href="historia.html" class="nav__link">HISTÓRIA</a></li><li><a href="servicos.html" class="nav__link">SERVIÇOS</a></li><li><a href="unidades.html" class="nav__link">UNIDADES</a></li><li><a href="club.html" class="nav__link">CLUB</a></li><li><a href="dia-do-noivo.html" class="nav__link">DIA DO NOIVO</a></li><li><a href="school.html" class="nav__link">SCHOOL</a></li><li><a href="blog.html" class="nav__link nav__link--active">BLOG</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="https://cashbarber.com.br/vonbarbarov/login" class="btn btn--primary btn--sm" target="_blank" rel="noopener">AGENDAR</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero page-hero--blog">
+      <div class="page-hero__bg">
+        <img src="assets/images/hero-blog.jpg" alt="Barbearov Insights" loading="eager">
+        <div class="page-hero__overlay"></div>
+      </div>
+      <div class="container page-hero__content">
+        <p class="hero__eyebrow reveal">CONTEÚDO</p>
+        <h1 class="hero__title reveal">BARBAROV<br>INSIGHTS</h1>
+      </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="section" id="blog-categorias">
+      <div class="container">
+        <div class="blog-categories">
+          <!-- PREENCHER: Categorias que façam sentido com os artigos reais do blog oficial -->
+          <button class="category-filter active" data-category="all">TODOS</button>
+          <button class="category-filter" data-category="barba">BARBA</button>
+          <button class="category-filter" data-category="cabelo">CABELO</button>
+          <button class="category-filter" data-category="estilo">ESTILO</button>
+          <button class="category-filter" data-category="cuidados">CUIDADOS</button>
+          <button class="category-filter" data-category="barbearia">BARBEARIA</button>
+          <button class="category-filter" data-category="carreira">CARREIRA</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTIGO PRINCIPAL -->
+    <section class="section" id="artigo-principal">
+      <div class="container">
+        <article class="blog-featured reveal">
+          <div class="blog-featured__media">
+            <img src="assets/images/blog-destaque.jpg" alt="[TÍTULO DO ARTIGO DESTAQUE]" loading="lazy">
+          </div>
+          <div class="blog-featured__body">
+            <span class="blog-card__category">[CATEGORIA]</span>
+            <h2 class="blog-featured__title">[TÍTULO DO ARTIGO DESTAQUE]</h2>
+            <p class="blog-featured__excerpt">[RESUMO DO ARTIGO DESTAQUE]</p>
+            <a href="https://blog.vonbarbarov.com.br/" class="btn btn--primary" target="_blank" rel="noopener">LER ARTIGO</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ARTIGOS -->
+    <section class="section section--dark" id="artigos">
+      <div class="container">
+        <div class="blog-grid">
+          <!-- PREENCHER: Artigos reais do blog oficial -->
+          <article class="blog-card reveal" data-category="barba">
+            <img src="assets/images/blog-1.jpg" alt="[TÍTULO DO ARTIGO]" loading="lazy">
+            <div class="blog-card__body">
+              <span class="blog-card__category">[CATEGORIA]</span>
+              <h3 class="blog-card__title">[TÍTULO DO ARTIGO]</h3>
+              <p class="blog-card__excerpt">[RESUMO DO ARTIGO]</p>
+              <a href="https://blog.vonbarbarov.com.br/" class="blog-card__link" target="_blank" rel="noopener">LER ARTIGO →</a>
+            </div>
+          </article>
+          <article class="blog-card reveal" data-category="cabelo">
+            <img src="assets/images/blog-2.jpg" alt="[TÍTULO DO ARTIGO]" loading="lazy">
+            <div class="blog-card__body">
+              <span class="blog-card__category">[CATEGORIA]</span>
+              <h3 class="blog-card__title">[TÍTULO DO ARTIGO]</h3>
+              <p class="blog-card__excerpt">[RESUMO DO ARTIGO]</p>
+              <a href="https://blog.vonbarbarov.com.br/" class="blog-card__link" target="_blank" rel="noopener">LER ARTIGO →</a>
+            </div>
+          </article>
+          <article class="blog-card reveal" data-category="estilo">
+            <img src="assets/images/blog-3.jpg" alt="[TÍTULO DO ARTIGO]" loading="lazy">
+            <div class="blog-card__body">
+              <span class="blog-card__category">[CATEGORIA]</span>
+              <h3 class="blog-card__title">[TÍTULO DO ARTIGO]</h3>
+              <p class="blog-card__excerpt">[RESUMO DO ARTIGO]</p>
+              <a href="https://blog.vonbarbarov.com.br/" class="blog-card__link" target="_blank" rel="noopener">LER ARTIGO →</a>
+            </div>
+          </article>
+          <article class="blog-card reveal" data-category="cuidados">
+            <img src="assets/images/blog-4.jpg" alt="[TÍTULO DO ARTIGO]" loading="lazy">
+            <div class="blog-card__body">
+              <span class="blog-card__category">[CATEGORIA]</span>
+              <h3 class="blog-card__title">[TÍTULO DO ARTIGO]</h3>
+              <p class="blog-card__excerpt">[RESUMO DO ARTIGO]</p>
+              <a href="https://blog.vonbarbarov.com.br/" class="blog-card__link" target="_blank" rel="noopener">LER ARTIGO →</a>
+            </div>
+          </article>
+          <article class="blog-card reveal" data-category="carreira">
+            <img src="assets/images/blog-5.jpg" alt="[TÍTULO DO ARTIGO]" loading="lazy">
+            <div class="blog-card__body">
+              <span class="blog-card__category">[CATEGORIA]</span>
+              <h3 class="blog-card__title">[TÍTULO DO ARTIGO]</h3>
+              <p class="blog-card__excerpt">[RESUMO DO ARTIGO]</p>
+              <a href="https://blog.vonbarbarov.com.br/" class="blog-card__link" target="_blank" rel="noopener">LER ARTIGO →</a>
+            </div>
+          </article>
+          <article class="blog-card reveal" data-category="barbearia">
+            <img src="assets/images/blog-6.jpg" alt="[TÍTULO DO ARTIGO]" loading="lazy">
+            <div class="blog-card__body">
+              <span class="blog-card__category">[CATEGORIA]</span>
+              <h3 class="blog-card__title">[TÍTULO DO ARTIGO]</h3>
+              <p class="blog-card__excerpt">[RESUMO DO ARTIGO]</p>
+              <a href="https://blog.vonbarbarov.com.br/" class="blog-card__link" target="_blank" rel="noopener">LER ARTIGO →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><span class="logo-text">VON BARBAROV</span><p class="footer__tagline">Mais que uma barbearia. Uma experiência.</p></div>
+        <nav class="footer__nav" aria-label="Links do rodapé">
+          <h3 class="footer__heading">NAVEGAÇÃO</h3>
+          <ul><li><a href="historia.html">História</a></li><li><a href="servicos.html">Serviços</a></li><li><a href="unidades.html">Unidades</a></li><li><a href="club.html">Club</a></li><li><a href="dia-do-noivo.html">Dia do Noivo</a></li><li><a href="school.html">School</a></li><li><a href="blog.html">Blog</a></li></ul>
+        </nav>
+        <div class="footer__contact"><h3 class="footer__heading">CONTATO</h3><p>[TELEFONE]</p><p>[E-MAIL]</p><p>[WHATSAPP]</p></div>
+        <div class="footer__social"><h3 class="footer__heading">SIGA</h3><p>[REDES SOCIAIS]</p></div>
+      </div>
+      <div class="footer__bottom"><p>© 2025 Von Barbarov. Todos os direitos reservados.</p></div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" id="mobileCta">
+    <a href="unidades.html" class="mobile-cta__btn">UNIDADE</a>
+    <a href="https://cashbarber.com.br/vonbarbarov/login" class="mobile-cta__btn mobile-cta__btn--primary" target="_blank" rel="noopener">AGENDAR</a>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
